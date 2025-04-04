@@ -1,7 +1,7 @@
 import random
 item = input("Enter item you are looking for : ")
 item_list = ['macbook','phone','surface go','boat headphones','pixelwatch']
-item_dict = {'macbook':100000 , 'phone': 52000 , 'surface go' : 120000 , 'boat headphones' : 2000 , 'pixel watch' : 30000}
+item_dict = {'macbook':100000 , 'phone': 52000 , 'surface go' : 120000 , 'boat headphones' : 2000 , 'pixelwatch' : 30000}
 luck_disc = random.randint(1,20)
 rand_disc = random.randint(0,100)
 luck_disc1 = luck_disc/100
